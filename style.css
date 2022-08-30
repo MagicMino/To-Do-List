@@ -170,7 +170,7 @@ footer form {
     color: white;
     background-color: transparent;
     border: none;
-    border-bottom: 1px rgba(255, 255, 255, 0.267) solid;
+   border-bottom: 1px rgba(255, 255, 255, 0.267) solid;
 }
 
 #new_task_input::placeholder {
@@ -182,12 +182,13 @@ footer form {
 #new_task_input_btn {
     width: 30px;
     height: 30px;
-    background-color: transparent;
+    background-color: white;
     border: none;
     background-image: url("./assets/new.svg");
     background-repeat: no-repeat;
     background-size: 80%;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .taskCompleted {
